@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		E31A3E002B8266E700D7E5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3DFF2B8266E700D7E5F4 /* AppDelegate.swift */; };
 		E31A3E022B8266E700D7E5F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E012B8266E700D7E5F4 /* SceneDelegate.swift */; };
-		E31A3E042B8266E700D7E5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E032B8266E700D7E5F4 /* ViewController.swift */; };
 		E31A3E072B8266E700D7E5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31A3E052B8266E700D7E5F4 /* Main.storyboard */; };
 		E31A3E092B8266E800D7E5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31A3E082B8266E800D7E5F4 /* Assets.xcassets */; };
 		E31A3E0C2B8266E800D7E5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31A3E0A2B8266E800D7E5F4 /* LaunchScreen.storyboard */; };
 		E31A3E172B8266E800D7E5F4 /* YatayMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E162B8266E800D7E5F4 /* YatayMenuTests.swift */; };
 		E31A3E212B8266E800D7E5F4 /* YatayMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E202B8266E800D7E5F4 /* YatayMenuUITests.swift */; };
 		E31A3E232B8266E800D7E5F4 /* YatayMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E222B8266E800D7E5F4 /* YatayMenuUITestsLaunchTests.swift */; };
+		E31A3E342B8267D500D7E5F4 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E322B8267D500D7E5F4 /* CategoryCollectionViewCell.swift */; };
+		E31A3E352B8267D500D7E5F4 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31A3E332B8267D500D7E5F4 /* CategoryCollectionViewCell.xib */; };
+		E31A3E382B8269F100D7E5F4 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E372B8269F100D7E5F4 /* DishCategory.swift */; };
+		E31A3E3B2B826BCD00D7E5F4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E31A3E3A2B826BCD00D7E5F4 /* Kingfisher */; };
+		E31A3E3E2B826C0000D7E5F4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E3D2B826C0000D7E5F4 /* String+Extension.swift */; };
+		E31A3E422B82744300D7E5F4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E412B82744300D7E5F4 /* OnboardingViewController.swift */; };
+		E31A3E442B8277B500D7E5F4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E432B8277B500D7E5F4 /* UIView+Extension.swift */; };
+		E31A3E462B8278C900D7E5F4 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E452B8278C900D7E5F4 /* OnboardingSlide.swift */; };
+		E31A3E482B827AED00D7E5F4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E472B827AED00D7E5F4 /* OnboardingCollectionViewCell.swift */; };
+		E31A3E772B83972F00D7E5F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E762B83972F00D7E5F4 /* HomeViewController.swift */; };
+		E31A3E7A2B83A96200D7E5F4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E792B83A96200D7E5F4 /* CardView.swift */; };
+		E31A3E7E2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E7C2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.swift */; };
+		E31A3E7F2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31A3E7D2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.xib */; };
+		E31A3E812B83B27A00D7E5F4 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A3E802B83B27A00D7E5F4 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		E31A3DFC2B8266E700D7E5F4 /* YatayMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YatayMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31A3DFF2B8266E700D7E5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E31A3E012B8266E700D7E5F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E31A3E032B8266E700D7E5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E31A3E062B8266E700D7E5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31A3E082B8266E800D7E5F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31A3E0B2B8266E800D7E5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,19 @@
 		E31A3E1C2B8266E800D7E5F4 /* YatayMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YatayMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31A3E202B8266E800D7E5F4 /* YatayMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YatayMenuUITests.swift; sourceTree = "<group>"; };
 		E31A3E222B8266E800D7E5F4 /* YatayMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YatayMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E31A3E322B8267D500D7E5F4 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E31A3E332B8267D500D7E5F4 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E31A3E372B8269F100D7E5F4 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
+		E31A3E3D2B826C0000D7E5F4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E31A3E412B82744300D7E5F4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E31A3E432B8277B500D7E5F4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E31A3E452B8278C900D7E5F4 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		E31A3E472B827AED00D7E5F4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		E31A3E762B83972F00D7E5F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E31A3E792B83A96200D7E5F4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E31A3E7C2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		E31A3E7D2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		E31A3E802B83B27A00D7E5F4 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31A3E3B2B826BCD00D7E5F4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +125,12 @@
 		E31A3DFE2B8266E700D7E5F4 /* YatayMenu */ = {
 			isa = PBXGroup;
 			children = (
+				E31A3E3F2B8273DC00D7E5F4 /* Views */,
+				E31A3E3C2B826BF200D7E5F4 /* Extensions */,
+				E31A3E362B8269E500D7E5F4 /* Models */,
+				E31A3E2F2B8266F800D7E5F4 /* CustomViews */,
 				E31A3DFF2B8266E700D7E5F4 /* AppDelegate.swift */,
 				E31A3E012B8266E700D7E5F4 /* SceneDelegate.swift */,
-				E31A3E032B8266E700D7E5F4 /* ViewController.swift */,
 				E31A3E052B8266E700D7E5F4 /* Main.storyboard */,
 				E31A3E082B8266E800D7E5F4 /* Assets.xcassets */,
 				E31A3E0A2B8266E800D7E5F4 /* LaunchScreen.storyboard */,
@@ -127,6 +156,95 @@
 			path = YatayMenuUITests;
 			sourceTree = "<group>";
 		};
+		E31A3E2F2B8266F800D7E5F4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E782B83A95700D7E5F4 /* CardView */,
+				E31A3E302B82670000D7E5F4 /* CollectionViewCells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E31A3E302B82670000D7E5F4 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E7B2B83B06D00D7E5F4 /* DishPortraitCollectionViewCell */,
+				E31A3E312B82674C00D7E5F4 /* CategoryCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E31A3E312B82674C00D7E5F4 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E322B8267D500D7E5F4 /* CategoryCollectionViewCell.swift */,
+				E31A3E332B8267D500D7E5F4 /* CategoryCollectionViewCell.xib */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E31A3E362B8269E500D7E5F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E372B8269F100D7E5F4 /* DishCategory.swift */,
+				E31A3E452B8278C900D7E5F4 /* OnboardingSlide.swift */,
+				E31A3E802B83B27A00D7E5F4 /* Dish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E31A3E3C2B826BF200D7E5F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E3D2B826C0000D7E5F4 /* String+Extension.swift */,
+				E31A3E432B8277B500D7E5F4 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E31A3E3F2B8273DC00D7E5F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E752B83972500D7E5F4 /* Home */,
+				E31A3E402B8273F200D7E5F4 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E31A3E402B8273F200D7E5F4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E412B82744300D7E5F4 /* OnboardingViewController.swift */,
+				E31A3E472B827AED00D7E5F4 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E31A3E752B83972500D7E5F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E762B83972F00D7E5F4 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E31A3E782B83A95700D7E5F4 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E792B83A96200D7E5F4 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		E31A3E7B2B83B06D00D7E5F4 /* DishPortraitCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E31A3E7C2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.swift */,
+				E31A3E7D2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.xib */,
+			);
+			path = DishPortraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +261,9 @@
 			dependencies = (
 			);
 			name = YatayMenu;
+			packageProductDependencies = (
+				E31A3E3A2B826BCD00D7E5F4 /* Kingfisher */,
+			);
 			productName = YatayMenu;
 			productReference = E31A3DFC2B8266E700D7E5F4 /* YatayMenu.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +336,9 @@
 				Base,
 			);
 			mainGroup = E31A3DF32B8266E700D7E5F4;
+			packageReferences = (
+				E31A3E392B826BCD00D7E5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E31A3DFD2B8266E700D7E5F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +355,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31A3E352B8267D500D7E5F4 /* CategoryCollectionViewCell.xib in Resources */,
 				E31A3E0C2B8266E800D7E5F4 /* LaunchScreen.storyboard in Resources */,
+				E31A3E7F2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.xib in Resources */,
 				E31A3E092B8266E800D7E5F4 /* Assets.xcassets in Resources */,
 				E31A3E072B8266E700D7E5F4 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31A3E042B8266E700D7E5F4 /* ViewController.swift in Sources */,
+				E31A3E442B8277B500D7E5F4 /* UIView+Extension.swift in Sources */,
+				E31A3E342B8267D500D7E5F4 /* CategoryCollectionViewCell.swift in Sources */,
+				E31A3E382B8269F100D7E5F4 /* DishCategory.swift in Sources */,
 				E31A3E002B8266E700D7E5F4 /* AppDelegate.swift in Sources */,
+				E31A3E462B8278C900D7E5F4 /* OnboardingSlide.swift in Sources */,
+				E31A3E772B83972F00D7E5F4 /* HomeViewController.swift in Sources */,
+				E31A3E422B82744300D7E5F4 /* OnboardingViewController.swift in Sources */,
+				E31A3E3E2B826C0000D7E5F4 /* String+Extension.swift in Sources */,
 				E31A3E022B8266E700D7E5F4 /* SceneDelegate.swift in Sources */,
+				E31A3E7A2B83A96200D7E5F4 /* CardView.swift in Sources */,
+				E31A3E482B827AED00D7E5F4 /* OnboardingCollectionViewCell.swift in Sources */,
+				E31A3E812B83B27A00D7E5F4 /* Dish.swift in Sources */,
+				E31A3E7E2B83B08C00D7E5F4 /* DishPortraitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +738,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E31A3E392B826BCD00D7E5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E31A3E3A2B826BCD00D7E5F4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E31A3E392B826BCD00D7E5F4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E31A3DF42B8266E700D7E5F4 /* Project object */;
 }
