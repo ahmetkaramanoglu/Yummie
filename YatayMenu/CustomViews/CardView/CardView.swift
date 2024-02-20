@@ -27,7 +27,7 @@ final class CardView: UIView{
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOffset = .zero //aci yok
         layer.cornerRadius = 10
-        layer.shadowOpacity = 0.5 //cok karanlik olmasin
+        layer.shadowOpacity = 0.1 //cok karanlik olmasin
         //tum kart gorunumlerin radiusunu veriyoruz burda
         cornerRadius = 10
         
